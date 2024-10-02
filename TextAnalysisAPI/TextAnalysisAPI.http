@@ -1,6 +1,61 @@
 @TextAnalysisAPI_HostAddress = http://localhost:5018
 
-GET {{TextAnalysisAPI_HostAddress}}/TextAnalysisAPI/
-Accept: application/json
+### Count Words
+POST {{TextAnalysisAPI_HostAddress}}/count-words
+Content-Type: application/json
 
-###
+{
+  "text": "This is a test string",
+  "words": ["is", "test", "not"]
+}
+
+### Check Words
+POST {{TextAnalysisAPI_HostAddress}}/check-words
+Content-Type: application/json
+
+{
+  "text": "This is a test string",
+  "words": ["is", "test", "not"]
+}
+
+### Count Letters
+POST {{TextAnalysisAPI_HostAddress}}/count-letters
+Content-Type: application/json
+
+{
+  "text": "This is a test string",
+  "letters": ["t", "i", "x"]
+}
+
+### Check Letters
+POST {{TextAnalysisAPI_HostAddress}}/check-letters
+Content-Type: application/json
+
+{
+  "text": "This is a test string",
+  "letters": ["t", "i", "x"]
+}
+
+### Is Base64
+POST {{TextAnalysisAPI_HostAddress}}/is-base64
+Content-Type: application/json
+
+{
+  "text": "SGVsbG8gV29ybGQ="
+}
+
+### Is Email
+POST {{TextAnalysisAPI_HostAddress}}/is-email
+Content-Type: application/json
+
+{
+  "text": "test@example.com"
+}
+
+### Convert to Decimal
+POST {{TextAnalysisAPI_HostAddress}}/convert-to-decimal
+Content-Type: application/json
+
+{
+  "text": "1,600,500.3025"
+}
