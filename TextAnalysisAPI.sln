@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35303.130
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TextAnalysisAPI", "TextAnalysisAPI\TextAnalysisAPI.csproj", "{99E51AE7-54DD-4D5A-94CC-008FD2C69B47}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XUnitTest", "XUnitTest\XUnitTest.csproj", "{C233B8FC-6E80-4A89-B379-EE1CF0310EEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{99E51AE7-54DD-4D5A-94CC-008FD2C69B47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99E51AE7-54DD-4D5A-94CC-008FD2C69B47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99E51AE7-54DD-4D5A-94CC-008FD2C69B47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99E51AE7-54DD-4D5A-94CC-008FD2C69B47}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C233B8FC-6E80-4A89-B379-EE1CF0310EEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C233B8FC-6E80-4A89-B379-EE1CF0310EEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C233B8FC-6E80-4A89-B379-EE1CF0310EEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C233B8FC-6E80-4A89-B379-EE1CF0310EEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {80F12E47-C2F9-416E-B9F1-797D0D743735}
+	EndGlobalSection
+EndGlobal
